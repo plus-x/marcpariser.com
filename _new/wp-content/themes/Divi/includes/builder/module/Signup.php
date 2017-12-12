@@ -112,7 +112,8 @@ class ET_Builder_Module_Signup extends ET_Builder_Module {
 				'css' => array(
 					'text_shadow' => "{$this->main_css_element} input",
 				),
-			)
+			),
+			'filters' => array(),
 		);
 
 		$this->custom_css_options = array(
@@ -1035,6 +1036,10 @@ class ET_Builder_Module_Signup extends ET_Builder_Module {
 					'off' => esc_html__( 'No', 'et_builder' ),
 					'on'  => esc_html__( 'Yes', 'et_builder' ),
 				),
+				'affects'     => array(
+					'border_radii_fields_focus',
+					'border_styles_fields_focus',
+				),
 				'tab_slug'        => 'advanced',
 				'toggle_slug'     => 'fields',
 			)
@@ -1054,6 +1059,14 @@ class ET_Builder_Module_Signup extends ET_Builder_Module {
 				'toggle_slug'     => $toggle_slug,
 				'depends_to'      => array( 'use_focus_border_color' ),
 				'depends_show_if' => 'on',
+				'defaults'        => array(
+					'border_radii'  => 'on|3px|3px|3px|3px',
+					'border_styles' => array(
+						'width' => '0px',
+						'color' => '#333333',
+						'style' => 'solid',
+					),
+				),
 			) )
 		);
 
