@@ -1,0 +1,2 @@
+[01-May-2015 19:39:39 UTC] WordPress database error Can't DROP 'slug'; check that column/key exists for query ALTER TABLE yk61_terms DROP INDEX slug, ADD INDEX slug(slug(191)) made by wp_upgrade, pre_schema_upgrade
+[01-May-2015 19:47:09 UTC] PHP Warning:  file_get_contents(/home/arczq38am/public_html/wp-content/themes/freelancer-parent/install/uploads/2013/12/themefuse-resume-test.zip): failed to open stream: No such file or directory in /home/arczq38am/public_html/wp-content/themes/freelancer-parent/framework/extensions/import/TFUSE_WP_IMPORT.php on line 452

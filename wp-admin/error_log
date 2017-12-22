@@ -1,1 +1,8 @@
-[28-Nov-2017 22:03:57 UTC] PHP Fatal error:  Call to undefined function wp_convert_hr_to_bytes() in /home/arczq38am/public_html/wp-includes/default-constants.php on line 33
+[12-Dec-2017 21:58:06 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[12-Dec-2017 22:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arczq38am/public_html/_new/wp-content/themes/Divi/functions.php:128) in /home/arczq38am/public_html/_new/wp-admin/includes/misc.php on line 1114
+[12-Dec-2017 22:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arczq38am/public_html/_new/wp-content/themes/Divi/functions.php:128) in /home/arczq38am/public_html/_new/wp-includes/option.php on line 919
+[12-Dec-2017 22:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arczq38am/public_html/_new/wp-content/themes/Divi/functions.php:128) in /home/arczq38am/public_html/_new/wp-includes/option.php on line 920
+[12-Dec-2017 22:58:54 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 84 bytes) in /home/arczq38am/public_html/_new/wp-content/themes/Divi/includes/builder/class-et-builder-element.php on line 3955
+[12-Dec-2017 22:59:12 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/arczq38am/public_html/_new/wp-includes/l10n.php on line 957
+[12-Dec-2017 22:59:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 88 bytes) in /home/arczq38am/public_html/_new/wp-content/themes/Divi/includes/builder/class-et-builder-element.php on line 1887
+[12-Dec-2017 23:07:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=669527 in /home/arczq38am/public_html/_new/wp-includes/wp-db.php on line 1933

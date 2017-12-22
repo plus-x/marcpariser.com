@@ -1,0 +1,66 @@
+#toplevel_page_tf_contact_forms_list .wp-menu-image a img{
+    display:none;
+}
+#toplevel_page_tf_contact_forms_list .wp-menu-image{
+    background: url("../images/icons/contact-forms.png") no-repeat scroll 5px -16px transparent !important;
+    height: 16px !important;
+    margin-top: 8px !important;
+    margin-left:2px;
+}
+#toplevel_page_tf_contact_forms_list:hover  div.wp-menu-image,
+#toplevel_page_tf_contact_forms_list.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/contact-forms.png") no-repeat scroll 5px 0 transparent !important;
+    height: 16px;
+}
+/*reservation*/
+#toplevel_page_tf_reservations_list .wp-menu-image a img{
+    display:none;
+}
+#toplevel_page_tf_reservations_list .wp-menu-image{
+    background: url("../images/icons/reservations_menu_icon.png") no-repeat scroll 5px -16px transparent !important;
+    height: 16px !important;
+    margin-top: 8px !important;
+    margin-left:2px;
+}
+#toplevel_page_tf_reservations_list:hover  div.wp-menu-image,
+#toplevel_page_tf_reservations_list.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/reservations_menu_icon.png") no-repeat scroll 5px 0 transparent !important;
+    height: 16px;
+}
+/*works*/
+#menu-posts-work  div.wp-menu-image{
+    background: url("../images/icons/portfolio.png") no-repeat scroll 5px -16px transparent !important;
+    height: 16px !important;
+    margin-top: 4px !important;
+    margin-left:2px;
+}
+#menu-posts-work:hover  div.wp-menu-image,
+#menu-posts-work.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/portfolio.png") no-repeat scroll 5px 0 transparent !important;
+    height: 16px;
+}
+/*services*/
+#menu-posts-service  div.wp-menu-image a img{
+    display: none;
+}
+#menu-posts-service  div.wp-menu-image{
+    background: url("../images/icons/services.png") no-repeat scroll 5px 0 transparent !important;
+    height: 16px;
+    margin-top: 2px !important;
+    margin-left:2px;
+}
+#menu-posts-service:hover  div.wp-menu-image,
+#menu-posts-service.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/services.png") no-repeat scroll 5px -16px transparent !important;
+    height: 16px;
+}
+
+#toplevel_page_tf_contact_forms_list div.wp-menu-image  img,#toplevel_page_tf_slider_list  div.wp-menu-image img{
+    display: none;
+}
+.folded #adminmenu a.menu-top {
+    height: 0px;
+}
+.folded #adminmenu a.menu-top {
+    padding: 0px !important;
+}
