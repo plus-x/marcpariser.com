@@ -1,1 +1,0 @@
-[28-Nov-2017 22:03:57 UTC] PHP Fatal error:  Call to undefined function wp_convert_hr_to_bytes() in /home/arczq38am/public_html/wp-includes/default-constants.php on line 33
